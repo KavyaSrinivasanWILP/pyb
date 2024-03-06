@@ -10,4 +10,3 @@ def helloworld(out):
         out (file-like object): The output stream to write the message to.
     """
     out.write("Hello world of Python\n")
-
