@@ -1,4 +1,6 @@
-import sys
+"""
+This module defines a function to print 'Hello world of Python' to a provided output stream.
+"""
 
 def helloworld(out):
     """
@@ -8,3 +10,4 @@ def helloworld(out):
         out (file-like object): The output stream to write the message to.
     """
     out.write("Hello world of Python\n")
+
